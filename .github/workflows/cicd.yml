@@ -6,9 +6,9 @@ name: Automated Drupal8 CICD
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 env:
     PHP_VERSION: 7.3
